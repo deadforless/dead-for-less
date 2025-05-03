@@ -2185,7 +2185,7 @@ a:focus, a:hover{
 #discography-post .mp3 .plyr--audio .plyr__controls{
     position: relative;
     padding: 55px 55px 55px 18px;
-    margin: 20px 0px 48px 0px;
+    margin: 0px 0px 48px 0px;
 }
 #discography-post .mp3 .plyr__controls>button:last-of-type{
     top: 57px;
@@ -2236,7 +2236,7 @@ a:focus, a:hover{
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    padding: 25px 24px 5px 23px;
+    padding: 0px 24px 5px 23px;
 }
 #discography-post .plyr--audio .plyr__controls{
     border-color: transparent;
@@ -2536,9 +2536,9 @@ body.firefox .plyr .plyr__volume input[type=range]{
 }
 
 /* Roger */
-/* .playlist{
-    margin-top: 50px;
-} */
+.playlist{
+    margin-bottom: 43px;
+}
 .playlist-title{
     margin-bottom: 30px;
 }
@@ -6296,7 +6296,7 @@ body.demo-2-bg{
     }
     #discography-post .mp3 .plyr--audio .plyr__controls{
         padding: 41px 20px 43px 4px;
-        margin: 46px 0px 48px 0px;
+        margin: 0px 0px 48px 0px;
     }
     #discography-post .mp3 .plyr__controls>button:last-of-type {
         top: 43px;
@@ -7734,7 +7734,7 @@ body.demo-2-bg{
     }
     #discography-post .mp3 .plyr--audio .plyr__controls{
         padding: 31px 20px 33px 4px;
-        margin: 36px 0px 38px 0px;
+        margin: 0px 0px 38px 0px;
     }
     #discography-post .mp3 .plyr .plyr__volume{
         max-width: 70px;
@@ -8728,7 +8728,7 @@ body.demo-2-bg{
     }
     #discography-post .mp3 .plyr--audio .plyr__controls {
         padding: 20px 20px 23px 2px;
-        margin: 31px 0px 33px 0px;
+        margin: 0px 0px 33px 0px;
     }
     #discography-post .mp3 .plyr__controls>button:last-of-type {
         top: 21px;
@@ -9445,7 +9445,7 @@ body.demo-2-bg{
     }
     #discography-post .mp3 .plyr--audio .plyr__controls {
         padding: 20px 20px 23px 5px;
-        margin: 31px 0px 33px 0px;
+        margin: 0px 0px 33px 0px;
     }
     .play-pause{
         margin-right: 10px;
