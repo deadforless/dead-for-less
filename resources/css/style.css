@@ -2238,6 +2238,9 @@ a:focus, a:hover{
     height: fit-content;
     padding: 0px 24px 5px 23px;
 }
+#discography-post .music h3{
+    color: #9e9e9e;
+}
 #discography-post .plyr--audio .plyr__controls{
     border-color: transparent;
 }
