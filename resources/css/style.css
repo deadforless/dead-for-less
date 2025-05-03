@@ -651,7 +651,7 @@ body.home .header-continer.active{
     -moz-animation: spin 15s linear infinite;
     animation: spin 15s linear infinite;
 }
-@-webkit-keyframes spin {
+@keyframes spin {
     100%{
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -2712,8 +2712,7 @@ hr {
 .all-events #on-tour .section_bg_image{
     background-size: cover;
 }
-.all-events .ticket *{
-}
+
 /* =================================================  */
 /* ALL EVENTS END */
 /* =================================================  */
@@ -4525,6 +4524,7 @@ body.contact-us-page .form textarea:-moz-placeholder { /* Firefox 18- */
     color: #3a3a3a;
     font-weight: bold;
     text-align: center;
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 .plusminus input:focus{
@@ -10458,9 +10458,6 @@ body.demo-2-bg{
     .search-404 form button{
         width: 30%;
         font-size: 13px;
-    }
-    .content-404 {
-        /*bottom: 25%;*/
     }
     .content-404 a {
         font-size: 21px;
