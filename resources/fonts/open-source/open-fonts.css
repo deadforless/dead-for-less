@@ -56,14 +56,18 @@
     color: #e4e4e4;
 }
 
+.fonts-page h3.name {
+    margin-bottom: 14px;
+}
+
 .fonts-page .shop_cta {
     display: inline-block;
-    margin: 32px 0 0 0;
+    margin: 0 0 0 12px;
 }
 
 select.font-selector {
-    display: block;
-    width: 350px;
+    display: inline-block;
+    width: 100%;
     margin-bottom: 30px;
 }
 

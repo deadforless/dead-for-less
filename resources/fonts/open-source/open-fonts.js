@@ -78,11 +78,11 @@ albumReplacer.on('change', function() {
 $('#band-text-transform').click(function(e){
     e.preventDefault();
     if ($('#band-name h2').hasClass('title-case')) {
-        $(this).text('To Title Case');
+        $(this).text('lowercase');
         $('#band-name h2').removeClass().addClass('lowercase');
     }
     else if ($('#band-name h2').hasClass('lowercase')) {
-        $(this).text('to lowercase');
+        $(this).text('title-case');
         $('#band-name h2').removeClass().addClass('title-case');
     }
 });
@@ -98,3 +98,10 @@ $('#album-text-transform').click(function(e){
         $('#album-name h2').removeClass().addClass('title-case');
     }
 });
+
+$('#band-weight-picker').on('change', function() {
+    $('#band-name h2').css('font-weight', this.value);
+});
+
+
+
