@@ -254,37 +254,55 @@ jQuery(function ($) {
     /* ----------------------------------------------------------- */
     /*  7. WOW ANIMATION
     /* ----------------------------------------------------------- */
-    var wow = new WOW(
-        {
-            animateClass: 'animated',
-            offset: 100
-        }
-    );
-    wow.init();
+    if (typeof WOW !== 'undefined') {
+        var wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100
+            }
+        );
+        wow.init();
+    } else {
+        console.log('WOW.js is not loaded');
+    }
+    
+
 
 
     /* ----------------------------------------------------------- */
     /*  8. TESTIMONIALS CAROUSEL
     /* ----------------------------------------------------------- */
 
-    $('.cd-testimonials-wrapper').flexslider({
-        selector: ".cd-testimonials > li",
-        animation: "slide",
-        controlNav: true,
-        animationSpeed: 400,
-        smoothHeight: true,
-        start: function() {
-            $('.cd-testimonials').children('li').css({
-                'opacity': 1,
-                'position': 'relative'
-            });
-        }
-    });
+    if ($.fn.flexslider) {
+        $('.cd-testimonials-wrapper').flexslider({
+            selector: ".cd-testimonials > li",
+            animation: "slide",
+            controlNav: true,
+            animationSpeed: 400,
+            smoothHeight: true,
+            start: function() {
+                $('.cd-testimonials').children('li').css({
+                    'opacity': 1,
+                    'position': 'relative'
+                });
+            }
+        });
+    } else {
+        console.log("Flexslider is not loaded.");
+    }
 
     /* ----------------------------------------------------------- */
     /*  9. PLAYER
     /* ----------------------------------------------------------- */
 
+    $(document).ready(function() {
+        if (typeof Plyr !== 'undefined') {
+            console.log('Plyr is loaded successfully');
+        } else {
+            console.log('Plyr is not loaded');
+        }
+    });
+    
     plyr.setup({
         controls: [
             'play',
