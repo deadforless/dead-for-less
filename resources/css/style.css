@@ -30,6 +30,7 @@
 #SINGLE PRODUCT
 #RESPONSIVE
 #FOR MOZILA FIREFOX
+#Roger Overrides
 */
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
@@ -11249,34 +11250,9 @@ body.net .coupon-form form input{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--------------------*/
+/* Roger Overrides */
+/*--------------------*/
+#lyrics {
+    color: #9e9e9e;
+}
