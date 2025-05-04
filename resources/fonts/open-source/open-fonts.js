@@ -1,11 +1,20 @@
 
 const fonts = {
+    'Liked from feedback':
+    [
+        'Intradistaff_font',
+        'Pochwara_font',
+        'Remington-Noiseless',
+        'Oliver-Printype',
+        'UOLydiaRegular',
+        'Depres',
+    ],
     'Fairly Normal':
     [
         'Beguild',
         'BladeDesire',
-        'DroideFutur-Light',
-        'DroideTransit-Light',
+        // 'DroideFutur-Light',
+        // 'DroideTransit-Light',
         'HealTheWebB-Regular',
         'LeMurmure-Regular',
         'LibrisADFStd-Bold',
@@ -16,10 +25,8 @@ const fonts = {
     'Metal':
     [
         'Aporrheton_font',
-        'Familia_Herlequin_font',
-        'Intradistaff_font',
+        // 'Familia_Herlequin_font',
         'Mostean',
-        'Pochwara_font',
         'Sripnoxhz',
         'Wolfsfifth',
     ],
@@ -27,17 +34,13 @@ const fonts = {
     [
         'Byron-Mark-I',
         'Byron-Mark-II',
-        'Oliver-Printype',
-        'Remington-Noiseless',
     ],
     'Scratchy':
     [
-        'Depres',
         'UOAlecRegular',
         'UOBerettRegular',
         'UOClaudiaRegular',
         'UOKaelaRegular',
-        'UOLydiaRegular',
     ],
     'Kinda Weird':
     [
