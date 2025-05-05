@@ -11256,3 +11256,10 @@ body.net .coupon-form form input{
 #lyrics {
     color: #9e9e9e;
 }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
