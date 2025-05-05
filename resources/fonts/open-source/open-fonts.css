@@ -76,16 +76,16 @@ select.font-selector {
     src: url('LeMurmure-Regular.woff') format('woff');
     
 }
-.LeMurmure-Regular h2 {
-    font-family: 'LeMurmure-Regular';
+.LeMurmure-Regular {
+    font-family: 'LeMurmure-Regular' !important;
 }
 
 @font-face {
     font-family: 'Aporrheton_font';
     src: url('Aporrheton_font.woff') format('woff');
 }
-.Aporrheton_font h2 {
-    font-family: 'Aporrheton_font';
+.Aporrheton_font {
+    font-family: 'Aporrheton_font' !important;
     font-size-adjust: 0.69;
 }
 
@@ -93,16 +93,16 @@ select.font-selector {
     font-family: 'Beguild';
     src: url('Beguild.woff') format('woff');
 }
-.Beguild h2 {
-    font-family: 'Beguild';
+.Beguild {
+    font-family: 'Beguild' !important;
 }
 
 @font-face {
     font-family: 'BladeDesire';
     src: url('BladeDesire.woff') format('woff');
 }
-.BladeDesire h2 {
-    font-family: 'BladeDesire';
+.BladeDesire {
+    font-family: 'BladeDesire' !important;
     font-size-adjust: 0.69;
 }
 
@@ -110,8 +110,8 @@ select.font-selector {
     font-family: 'Byron-Mark-I';
     src: url('Byron-Mark-I.woff') format('woff');
 }
-.Byron-Mark-I h2 {
-    font-family: 'Byron-Mark-I';
+.Byron-Mark-I {
+    font-family: 'Byron-Mark-I' !important;
     font-size: 36px !important;
 }
 
@@ -119,8 +119,8 @@ select.font-selector {
     font-family: 'Byron-Mark-II';
     src: url('Byron-Mark-II.woff') format('woff');
 }
-.Byron-Mark-II h2 {
-    font-family: 'Byron-Mark-II';
+.Byron-Mark-II {
+    font-family: 'Byron-Mark-II' !important;
     font-size: 36px !important;
 }
 
@@ -128,8 +128,8 @@ select.font-selector {
     font-family: 'Depres';
     src: url('Depres.ttf') format('truetype');
 }
-.Depres h2 {
-    font-family: 'Depres';
+.Depres {
+    font-family: 'Depres' !important;
     font-size-adjust: 0.7;
 }
 
@@ -137,24 +137,24 @@ select.font-selector {
     font-family: 'DroideFutur-Light';
     src: url('DroideFutur-Light.woff') format('woff');
 }
-.DroideFutur-Light h2 {
-    font-family: 'DroideFutur-Light';
+.DroideFutur-Light {
+    font-family: 'DroideFutur-Light' !important;
 }
 
 @font-face {
     font-family: 'DroideTransit-Light';
     src: url('DroideTransit-Light.woff') format('woff');
 }
-.DroideTransit-Light h2 {
-    font-family: 'DroideTransit-Light';
+.DroideTransit-Light {
+    font-family: 'DroideTransit-Light' !important;
 }
 
 @font-face {
     font-family: 'Familia_Herlequin_font';
     src: url('Familia_Herlequin_font.woff') format('woff');
 }
-.Familia_Herlequin_font h2 {
-    font-family: 'Familia_Herlequin_font';
+.Familia_Herlequin_font {
+    font-family: 'Familia_Herlequin_font' !important;
     font-size-adjust: 0.9;
 }
 
@@ -162,16 +162,16 @@ select.font-selector {
     font-family: 'HealTheWebB-Regular';
     src: url('HealTheWebB-Regular.woff') format('woff');
 }
-.HealTheWebB-Regular h2 {
-    font-family: 'HealTheWebB-Regular';
+.HealTheWebB-Regular {
+    font-family: 'HealTheWebB-Regular' !important;
 }
 
 @font-face {
     font-family: 'Intradistaff_font';
     src: url('Intradistaff_font.woff') format('woff');
 }
-.Intradistaff_font h2 {
-    font-family: 'Intradistaff_font';
+.Intradistaff_font {
+    font-family: 'Intradistaff_font' !important;
     font-size-adjust: 0.9;
 }
 
@@ -179,32 +179,32 @@ select.font-selector {
     font-family: 'LeMurmure-Regular';
     src: url('LeMurmure-Regular.woff') format('woff');
 }
-.LeMurmure-Regular h2 {
-    font-family: 'LeMurmure-Regular';
+.LeMurmure-Regular {
+    font-family: 'LeMurmure-Regular' !important;
 }
 
 @font-face {
     font-family: 'LibrisADFStd-Bold';
     src: url('LibrisADFStd-Bold.woff') format('woff');
 }
-.LibrisADFStd-Bold h2 {
-    font-family: 'LibrisADFStd-Bold';
+.LibrisADFStd-Bold {
+    font-family: 'LibrisADFStd-Bold' !important;
 }
 
 @font-face {
     font-family: 'LibrisADFStd-Regular';
     src: url('LibrisADFStd-Regular.woff') format('woff');
 }
-.LibrisADFStd-Regular h2 {
-    font-family: 'LibrisADFStd-Regular';
+.LibrisADFStd-Regular {
+    font-family: 'LibrisADFStd-Regular' !important;
 }
 
 @font-face {
     font-family: 'Mostean';
     src: url('Mostean.woff') format('woff');
 }
-.Mostean h2 {
-    font-family: 'Mostean';
+.Mostean {
+    font-family: 'Mostean' !important;
     font-size-adjust: 0.5;
 }
 
@@ -212,8 +212,8 @@ select.font-selector {
     font-family: 'Oliver-Printype';
     src: url('Oliver-Printype.woff') format('woff');
 }
-.Oliver-Printype h2 {
-    font-family: 'Oliver-Printype';
+.Oliver-Printype {
+    font-family: 'Oliver-Printype' !important;
     font-size: 30px !important;
 }
 
@@ -221,8 +221,8 @@ select.font-selector {
     font-family: 'Pochwara_font';
     src: url('Pochwara_font.woff') format('woff');
 }
-.Pochwara_font h2 {
-    font-family: 'Pochwara_font';
+.Pochwara_font {
+    font-family: 'Pochwara_font' !important;
     font-size-adjust: 0.7;
 }
 
@@ -230,32 +230,32 @@ select.font-selector {
     font-family: 'Remington-Noiseless';
     src: url('Remington-Noiseless.woff') format('woff');
 }
-.Remington-Noiseless h2 {
-    font-family: 'Remington-Noiseless';
+.Remington-Noiseless {
+    font-family: 'Remington-Noiseless' !important;
 }
 
 @font-face {
     font-family: 'sanstiefel';
     src: url('sanstiefel.woff') format('woff');
 }
-.sanstiefel h2 {
-    font-family: 'sanstiefel';
+.sanstiefel {
+    font-family: 'sanstiefel' !important;
 }
 
 @font-face {
     font-family: 'SenseFont1_Regular';
     src: url('SenseFont1_Regular.woff') format('woff');
 }
-.SenseFont1_Regular h2 {
-    font-family: 'SenseFont1_Regular';
+.SenseFont1_Regular {
+    font-family: 'SenseFont1_Regular' !important;
 }
 
 @font-face {
     font-family: 'Sripnoxhz';
     src: url('Sripnoxhz.woff') format('woff');
 }
-.Sripnoxhz h2 {
-    font-family: 'Sripnoxhz';
+.Sripnoxhz {
+    font-family: 'Sripnoxhz' !important;
     font-size: 52px !important;
 }
 
@@ -263,16 +263,16 @@ select.font-selector {
     font-family: 'TapeFlow';
     src: url('TapeFlow.woff') format('woff');
 }
-.TapeFlow h2 {
-    font-family: 'TapeFlow';
+.TapeFlow {
+    font-family: 'TapeFlow' !important;
 }
 
 @font-face {
     font-family: 'UOAlecRegular';
     src: url('UOAlecRegular.woff') format('woff');
 }
-.UOAlecRegular h2 {
-    font-family: 'UOAlecRegular';
+.UOAlecRegular {
+    font-family: 'UOAlecRegular' !important;
     font-size: 40px !important;
 }
 
@@ -280,48 +280,48 @@ select.font-selector {
     font-family: 'UOBerettRegular';
     src: url('UOBerettRegular.woff') format('woff');
 }
-.UOBerettRegular h2 {
-    font-family: 'UOBerettRegular';
+.UOBerettRegular {
+    font-family: 'UOBerettRegular' !important;
 }
 
 @font-face {
     font-family: 'UOClaudiaRegular';
     src: url('UOClaudiaRegular.woff') format('woff');
 }
-.UOClaudiaRegular h2 {
-    font-family: 'UOClaudiaRegular';
+.UOClaudiaRegular {
+    font-family: 'UOClaudiaRegular' !important;
 }
 
 @font-face {
     font-family: 'UOEmilyRegular';
     src: url('UOEmilyRegular.woff') format('woff');
 }
-.UOEmilyRegular h2 {
-    font-family: 'UOEmilyRegular';
+.UOEmilyRegular {
+    font-family: 'UOEmilyRegular' !important;
 }
 
 @font-face {
     font-family: 'UOKaelaRegular';
     src: url('UOKaelaRegular.woff') format('woff');
 }
-.UOKaelaRegular h2 {
-    font-family: 'UOKaelaRegular';
+.UOKaelaRegular {
+    font-family: 'UOKaelaRegular' !important;
 }
 
 @font-face {
     font-family: 'UOLydiaRegular';
     src: url('UOLydiaRegular.woff') format('woff');
 }
-.UOLydiaRegular h2 {
-    font-family: 'UOLydiaRegular';
+.UOLydiaRegular {
+    font-family: 'UOLydiaRegular' !important;
 }
 
 @font-face {
     font-family: 'Wolfsfifth';
     src: url('Wolfsfifth.woff') format('woff');
 }
-.Wolfsfifth h2 {
-    font-family: 'Wolfsfifth';
+.Wolfsfifth {
+    font-family: 'Wolfsfifth' !important;
     font-size-adjust: 0.25;
 }
 
